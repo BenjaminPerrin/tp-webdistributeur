@@ -20,6 +20,10 @@
         <filter-name>RoleFilter</filter-name>
         <filter-class>fr.m2i.webdistributeur.filter.RoleFilter</filter-class>
     </filter>
+    <servlet-mapping>
+        <servlet-name>ShowProductServlet</servlet-name>
+        <url-pattern></url-pattern>
+    </servlet-mapping>
     <filter-mapping>
         <filter-name>AuthenticationFilter</filter-name>
         <url-pattern>/customer/*</url-pattern>

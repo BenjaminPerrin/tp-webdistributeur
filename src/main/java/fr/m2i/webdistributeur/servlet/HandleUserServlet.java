@@ -20,6 +20,7 @@ public class HandleUserServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
+        System.out.println("cc");
         this.getServletContext().getRequestDispatcher("/META-INF/admin/handleUser.jsp").forward(request, response);
     }
 
